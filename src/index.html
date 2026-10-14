@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <title>Consulta de Clima</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="cartao">
+    <h1>Consulta de Clima</h1>
+
+    <div class="busca">
+      <input id="campo-cidade" type="text" placeholder="Ex.: Grajaú">
+      <button id="botao-consultar">Consultar</button>
+    </div>
+
+    <p id="mensagem" class="mensagem"></p>
+
+    <section class="resultado">
+      <p id="resultado-cidade" class="cidade">—</p>
+      <p id="resultado-temperatura" class="temperatura">—</p>
+      <p id="resultado-condicao" class="condicao">—</p>
+    </section>
+  </main>
+
+  <script src="dados.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

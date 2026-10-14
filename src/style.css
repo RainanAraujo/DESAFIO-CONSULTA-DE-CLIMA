@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #E3F2FD;
+  font-family: system-ui, sans-serif;
+  color: #263238;
+}
+
+.cartao {
+  width: 380px;
+  padding: 32px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+h1 { margin: 0 0 20px; font-size: 24px; }
+
+.busca { display: flex; gap: 10px; }
+
+.busca input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #CFD8DC;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #1E88E5;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:disabled { background: #90A4AE; cursor: wait; }
+
+.mensagem { min-height: 20px; margin: 12px 0; }
+.erro { color: #C62828; }
+.carregando { color: #78909C; }
+
+.resultado { text-align: center; margin-top: 8px; }
+.resultado p { margin: 6px 0; }
+.cidade { font-size: 20px; font-weight: bold; }
+.temperatura { font-size: 48px; font-weight: bold; color: #1E88E5; }
+.condicao { color: #607D8B; }
